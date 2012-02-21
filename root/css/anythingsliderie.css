@@ -1,0 +1,248 @@
+
+<!DOCTYPE HTML>
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    
+	<title>Page title</title>
+	
+	
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+	
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/jtwt.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+
+
+
+
+  </head>
+<body>
+
+  
+<div id="header">
+	<div id="header-gradient-background">
+	<div id="header-noise">
+	
+	<div id="top-bar">
+		<div id="top-bar-inside">
+			<div id="logo">
+				<div class="logobox-bl"> 
+					<div class="logobox-br">
+						
+						<a href="index.html"><img src="images/logo.png" alt="Adora - Premium Template" /></a>
+						
+					</div>
+				</div>
+			</div><!-- close #logo -->
+		
+		<span class="email">
+		<a href="#"><img src="images/email.png"> E-mail</a></span>
+		<img src="images/phone.png"> 1 (800) 555-2121
+		</div>
+	</div><!-- close #top-bar -->
+	
+	
+	
+	<!-- BEGIN #navigation -->
+	<div id="page-spacer">
+	<div id="navigation" class="sf-menu sf-navbar">
+    
+	<ul> 
+		<li>
+			<a href="index.html">Home</a>
+			<ul>
+				<li>
+					<a href="index.html">Full width slider</a>
+				</li>
+				<li>
+					<a href="index-content.html">Content slider</a>
+				</li>
+				<li>
+					<a href="index-simple.html">Simple slider</a>
+				</li>
+			</ul>
+		</li>
+		<li class="current">
+			<a href="styles.html">Styles</a>
+			<ul>
+				<li>
+					<a href="styles.html">Typography styles</a>
+
+				</li>
+				<li>
+					<a href="full-width.html">Full-width columns</a>
+				</li>
+				<li>
+					<a href="sidebar-left.html">Left sidebar</a>
+				</li>
+				<li>
+					<a href="sidebar-right.html">Right sidebar</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="portfolio.html">Portfolio</a>
+			<ul>
+				<li>
+					<a href="portfolio-one-column.html">One column portfolio</a>
+
+				</li>
+				<li>
+					<a href="portfolio-two-column.html">Two column portfolio</a>
+				</li>
+				<li>
+					<a href="portfolio-three-column.html">Three column portfolio</a>
+				</li>
+				<li>
+					<a href="portfolio.html">Four column portfolio</a>
+					<ul>
+						<li><a href="#">Sample Drop down</a></li>
+						<li><a href="#aba">Example 1</a></li>
+						<li><a href="#abb">Example 2</a></li>
+						<li><a href="#abc">Example 3</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="blog.html">Blog</a>
+		</li>
+		<li>
+			<a href="contact.html">Contact</a>
+		</li>
+	</ul>
+
+	  <div id="navigation-base"></div>
+	</div>
+	</div><!-- close #navigation -->
+	
+	
+	</div><!-- close #header-noise -->
+	</div><!-- close #header-gradient-background -->
+</div><!-- close #header -->
+
+
+
+<div class="container">
+	<div id="content">
+		<div class="bread-crumbs"><a href="index.php">Home</a> &rsaquo; Typography styles</div>
+	
+    
+		<div class="sidebar">
+			<h4>Secondary Menu</h4>
+			<ul class="submenu">
+				<li><a href="#">Why use Touchstone?</a></li>
+				<li><a href="#">Meet the staff</a></li>
+				<li><a href="#">Company History</a></li>
+				<li><a href="#">Work with us</a></li>
+				<li><a href="#">Past Clients</a></li>
+				<li><a href="#">Get in touch</a></li>
+			</ul>
+			<div class="sidebardivider"></div>
+			
+			<h4>Latest Tweets</h4>
+			<script type="text/javascript">
+			$(document).ready(function() {
+					$('#tweets-sidebar').jtwt({image_size : 20, count : 3, username: 'envato', convert_links : 1, loader_text : 'Loading new tweets...'});	 
+			});											
+			</script>
+			<div id="tweets-sidebar"></div>
+			
+			<div class="sidebardivider"></div>
+			
+			<h4>Flickr Widget</h4>
+			<div id="flickrsidebar"></div>
+			
+			<div id="sidebar-base"></div>
+		</div><!-- close .sidebar -->
+
+		
+		<div id="main-content-sidebar">
+			
+/* Navigation Links
+
+#header div.anythingSlider .thumbNav
+  padding: 4px 6px 5px 14px
+  a
+    background: url(../images/nav.png) no-repeat 0px 5px
+    &.cur
+      background: url(../images/nav_active.png) no-repeat 0px 5px
+
+/* Active State
+
+		</div><!-- close #main-content-sidebar -->
+		
+		</div> <!-- close #content -->
+</div><!-- close .container -->
+
+
+<div id="footer">
+	<div id="footer-top"> <!-- You can remove this top footer section completely if you want just a smaller footer -->
+		<div class="grid4column">
+			<img src="images/logo-footer.png" width="112" height="34" alt="Logo">
+			<p>1600 Holloway Ave.<br/>
+			San Francisco, CA<br/>
+			contact@progressionstudios.com</p>
+			<a href="#" class="social-email">E-mail</a>
+			<a href="#" class="social-linkedin">LinkedIn</a>
+			<a href="#" class="social-twitter">Twitter</a>
+			<a href="#" class="social-facebook">Facebook</a>
+			<a href="#" class="social-flickr">Flickr</a>
+			<a href="#" class="social-rss">RSS</a>
+		</div>
+		<div class="grid4column">
+			<h4>Meta</h4>
+			<ul>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Entires RSS</a></li>
+				<li><a href="#">Comments RSS</a></li>
+				<li><a href="#">WordPress.org</a></li>
+				<li><a href="http://progressionstudios.com" target="_blank">Progression Studios</a></li>
+			</ul>
+		</div>
+		<div class="grid4column">
+			<h4>Recent Tweets</h4>
+			<script type="text/javascript">
+			$(document).ready(function() {
+					$('#tweets').jtwt({image_size : 20, count : 2, username: 'envato', convert_links : 1, loader_text : 'Loading new tweets...'});	 
+			});											
+			</script>
+			<div id="tweets"></div>
+		</div>
+		<div class="grid4column lastcolumn">
+			<h4>Flickr Photos</h4>
+			<div id="flickrfooter"></div>
+		</div>
+	</div><!-- close #footer-top -->
+	<div id="footer-base">
+		<div class="container">
+			<div id="copyright">Copyright &copy; 2011 Adora Template. Designed by <a href="http://themeforest.net/user/ProgressionStudios" target="_blank">Progression Studios</a>.
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="blog.html">Blog</a></li>		
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- close #footer -->
+
+
+
+<!-- Initializing Drop Down Menu -->
+<script type="text/javascript">
+// initialise plugins
+jQuery(function(){
+	jQuery('ul.sf-menu').superfish();
+});
+</script>
+
+
+</body>
+</html>
