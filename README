@@ -1,0 +1,28 @@
+Happy Holidays Business Catalyst Source Tree
+============================================
+
+Description
+
+  This is the Happy Holidays Business Catalyst tree.
+
+  NB. Beware the root directory itself is included;
+  the .git tree itself is in the actual root/.
+  I don't know if this is a prudent
+  convention. I set it up that way on my host a few days ago as it seemed like
+  the simplest way to keep DW (or other ftp clients) from transferring the .git
+  tree itself back and forth from the BC server.
+  I'm going to rename it "bc-root"
+
+Documentation
+
+  Ha!
+
+Changes
+
+  No Changelog yet.  Run:
+
+  $ git log
+
+Contact
+
+  webmaster@businesscatalyst.ca
